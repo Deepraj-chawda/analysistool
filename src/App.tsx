@@ -48,7 +48,7 @@ const App = () => {
                     {/* <Navigation /> */}
                     <div className="flex-grow">
                       <Routes>
-                        <Route path="/" element={<Login />} />
+                        <Route path="/" element={<GapAssessmentSetup />} />
                         <Route path="/Gap" element={<GapAssessmentSetup />} />
                         <Route path="/Workbench" element={<AssessmentWorkbench />} />
                         <Route path="/Results" element={<AssessmentResults />} />
