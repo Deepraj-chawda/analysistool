@@ -36,7 +36,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/analysistool">
         <AutoLogoutHandler />
           <div className="min-h-screen flex flex-col">
             <Routes>
